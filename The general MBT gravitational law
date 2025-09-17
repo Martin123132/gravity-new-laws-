@@ -1,0 +1,17 @@
+The general MBT gravitational law is expressed as:
+
+a(r,t) = Σ [ v_j² / r_ij * exp(-λ r_ij) * r̂_ij ]
+
+- a = acceleration experienced by body i
+- v_j = velocity of body j (relative motion drives curvature)
+- r_ij = distance between i and j
+- λ = damping constant (sets precession, prevents collapse)
+- r̂_ij = unit vector pointing from i to j
+
+For a single body in orbit, MBT defines precession through a pure velocity-radius relation:
+α = v² / (r * c)
+
+Here, α defines orbital precession without mass or G, using only velocity (v), orbital radius (r), and the speed of light (c) as the curvature scale.
+
+Orbital stability arises from the geometry of motion, not angular momentum with mass:
+r · v = constant
